@@ -63,7 +63,7 @@ holiday_hash.each do |name, holiday|
   puts name.to_s.capitalize + ":"
   holiday.each do |name2, sups|
     name_2 = name2.to_s.split("_").collect {|holiday| holiday.capitalize}
-  puts "  " + name_2_!.join(" ") + ": " + sups.join(", ")
+  puts "  " + name_2.join(" ") + ": " + sups.join(", ")
 end
 end
 end
